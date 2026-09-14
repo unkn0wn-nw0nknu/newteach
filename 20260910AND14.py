@@ -27,7 +27,11 @@ print(type(betu))
 nev = input("Mi a neved? ")
 print(f"Helló, {nev}!")
 
-if nev == "":
+if nev == "": #csak HA entert nyomtál
     print("HIBA: Nem adtad meg a neved")
 else:
     print(f"Helló, {nev}!")
+
+eletkor = int(input("Hány éves vagy? ")) #kell egy int() az input köré
+print(f"{nev} a nevem és {eletkor} éves vagyok")
+
