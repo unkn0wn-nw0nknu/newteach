@@ -35,3 +35,13 @@ else:
 eletkor = int(input("Hány éves vagy? ")) #kell egy int() az input köré
 print(f"{nev} a nevem és {eletkor} éves vagyok")
 
+#operátorok
+if eletkor > 18: #HA NAGYOBB ( > ), mint 18
+    print("Felnőtt vagyok")
+
+elif eletkor == 18:
+    print("Pont 18 éves vagyok")
+
+else: #ha nem nagyobb és nem egyenlő akkor kisebb
+    print("Nem vagyok felnőtt még!")
+
