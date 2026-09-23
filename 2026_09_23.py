@@ -16,3 +16,8 @@ print(barataim)
 
 kedvenceim = ["Kakaós palacsinta", "Rizskoch", "Trappista sajt", "Csokis keksz", "Sztracsatella fagyi"]
 print(f"Nekem {len(kedvenceim)} kedvenc kajám van.") #len (length) kiirja mennyi elem van egy tömbben.
+
+#for ciklus
+#for <változó név> in <tömb>
+for kaja in kedvenceim:
+    print(kaja)
