@@ -21,3 +21,29 @@ print(f"Nekem {len(kedvenceim)} kedvenc kajám van.") #len (length) kiirja menny
 #for <változó név> in <tömb>
 for kaja in kedvenceim:
     print(kaja)
+
+#range
+#egész szám, 0-tól kezdi 
+#elszámolunk 5-ig
+#range(6) gyakorlatilag egy tömb [0,1,2,3,4,5]
+for szam in range(6):
+    print(szam)
+
+# for szam in range(6000000):
+#     print(szam)
+
+#A rangenak nem csak vég értéke van, hanem meg lehet adni, honnan kezdődjön
+for eletkor in range(0, 99):
+    if eletkor < 18:
+        print("Kiskorúak nem léphetnek be! >:)")
+    else:
+        print("Felnőtt vagy! Bemehetsz! :D")
+        break #kilép a ciklusból
+
+#a range()-nek van egy harmadik paramétere: lépésköz, mennyivel növekedjen az érték 1 helyett
+#pl. felsorolom az összes 3-mal osztható számot 0-300-ig
+for szam in range(0, 301, 3):
+    print(szam*3)
+
+    #írjuk ki: 1*3 = 3
+    # 2*3 = 6
