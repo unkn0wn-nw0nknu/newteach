@@ -46,3 +46,28 @@ for dolgozo in dolgozok_lista:
 print(f"A legrosszabbul fizetett dolgozo:")
 print(f"\tNev: {min.nev}")
 print(f"\tBelépési éve: {min.belepes_eve}")
+
+#7. feladat
+reszleg = input("Kérlek írj be egy részleget (pl. IT, HR stb...): ")
+reszleg_dolgozok_szama = 0
+for dolgozo in dolgozok_lista:
+    if dolgozo.reszleg == reszleg: #ha van olyan dolgozo, akinek a részlege megegyezik azzal, amit berírtunk
+        reszleg_dolgozok_szama += 1 #hozzáadunk egyet
+
+if reszleg_dolgozok_szama == 0:
+    print(f"Nem találtam a {reszleg} részlegen dolgozót!")
+else:
+    print(f"A {reszleg} részlegen {reszleg_dolgozok_szama} anomália dolgozik")
+
+#8. feladat
+dolgozo_neve = input("Kérlek add meg a dolgozo nevét (pl. Kiss Ferenc): ")
+#segéd változó, van-e ilyen v nincs
+van = False
+for dolgozo in dolgozok_lista:
+    if dolgozo_neve == dolgozo.nev:
+        van = True  #ha van akkor True
+        print(f"{dolgozo_neve} {dolgozo.fizetes} forintot keres")
+        break
+
+if not van:
+    print(f"{dolgozo_neve} névvel nincsen dolgozó")
