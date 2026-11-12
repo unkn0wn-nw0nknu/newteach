@@ -1,0 +1,6 @@
+Név;Részleg;Fizetés;BelépésÉve
+Kovács János;IT;650000;2018
+Nagy Anna;HR;480000;2021
+Szabó Péter;IT;720000;2015
+Tóth Éva;Pénzügy;530000;2020
+Kiss Ferenc;IT;590000;2022

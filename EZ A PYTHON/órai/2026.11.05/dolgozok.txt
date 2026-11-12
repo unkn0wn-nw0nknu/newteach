@@ -1,0 +1,6 @@
+Név;Város;Részleg
+Kovács Anna;Budapest;Fejlesztés
+Nagy Béla;Szeged;Marketing
+Tóth Csilla;Debrecen;HR
+Szabó Dániel;Győr;Informatika
+Varga Éva;Pécs;Pénzügy

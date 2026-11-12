@@ -1,0 +1,6 @@
+Név;Osztály;Kor;Átlag
+Kovács Péter;10.B;16;4.55
+Nagy Zsófia;10.A;15;4.82
+Tóth Máté;10.B;16;3.75
+Szabó Laura;10.C;17;4.10
+Varga Balázs;10.A;16;4.95

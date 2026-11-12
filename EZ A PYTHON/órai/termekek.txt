@@ -1,0 +1,6 @@
+Terméknév;Raktárkészlet;Egységár
+Laptop;12;249990.50
+Egér;45;4500.00
+Billentyűzet;28;12990.90
+Monitor;8;89900.00
+Headset;15;18500.50
